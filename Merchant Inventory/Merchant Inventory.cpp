@@ -71,44 +71,71 @@ public:
 
 
 		int wallet = 10
-		int choice;
 
 
 
+		cout << "Merchant Item : " << npcItems[0].name << "\n";
+		cout << "Cost of Item : " << npcItems[0].cost << "\n\n";
+		cout << "Quantity of Item(s) : " << npcItems[0].quantity << "\n\n";
 
-		do
-		{
-			cout << "\nMerchants Inventory\n\n";
-			cout << "0 - Quit\n";
-			cout << "1 - Buy\n";
-			cout << "2 - Sell\n";
-			
+		cout << "Merchant Item : " << npcItems[1].name << "\n";
+		cout << "Cost of Item : " << npcItems[1].cost << "\n\n";
+		cout << "Quantity of Item(s) : " << npcItems[1].quantity << "\n\n";
 
-			cout << "Choice: ";
-			cin >> choice;
+		cout << "Merchant Item : " << npcItems[2].name << "\n";
+		cout << "Cost of Item : " << npcItems[2].cost << "\n\n";
+		cout << "Quantity of Item(s) : " << npcItems[2].quantity << "\n\n";
+		
 
-			switch (choice)
-			{
-			case 0:
-				cout << "Good-bye.\n";
-				break;
-			case 1:
-				cout << "What would you like to buy?" << std::endl;
-				cin >> wallet;
-				break;
-			case 2:
 
-				cout << "What would you like to sell? " << std::endl;
-				cin >> wallet;
 
 		
-				break;
-			
-			default:
-				cout << "\nSorry, but " << choice << " isn't a valid choice.\n";
-			}
-		} while (choice != 0);
 
 		return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 	}
 

@@ -1,0 +1,2 @@
+﻿  Merchant Inventory.cpp
+C:\VS Projects\Merchant Inventory\Merchant Inventory.cpp(77,3): error C2146: syntax error: missing ';' before identifier 'cout'
